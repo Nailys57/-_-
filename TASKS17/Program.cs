@@ -1,4 +1,5 @@
-﻿using System;
+﻿//растояние между точками
+using System;
 using static System.Console;
 Clear();
 

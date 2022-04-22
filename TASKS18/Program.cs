@@ -1,4 +1,5 @@
-﻿using System;
+﻿//таблица кубов чисел
+using System;
 using static System.Console;
 Clear();
 

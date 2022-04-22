@@ -1,4 +1,5 @@
-﻿using System;
+﻿//проверкам на палиндром
+using System;
 using static System.Console;
 Clear();
 
