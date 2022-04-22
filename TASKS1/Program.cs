@@ -16,4 +16,4 @@ else if(b >= a && b >= c)
 max = b;
 else
 max = c;
-Console.WriteLine($"{max} больше всех")
+Console.WriteLine($"{max} больше всех");
