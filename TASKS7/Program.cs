@@ -1,4 +1,4 @@
-﻿//проверкам на палиндром
+﻿//проверка на палиндром
 using System;
 using static System.Console;
 Clear();
