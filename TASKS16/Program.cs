@@ -9,8 +9,9 @@ int[,] mass = new int[3, 4];
     {
         for (int j = 0; j < mass.GetLength(1); j++)
         {
-            var rand = new Random().Next(-10, 10);
-            Write("{0:N1} ", rand);
+            var rand = new Random().Next(-10, 9);
+            var randF = new Random();
+            Write("{0:F1} ", rand + randF.NextDouble());
         }
         WriteLine();
     }
