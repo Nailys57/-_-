@@ -1,4 +1,5 @@
-﻿using System;
+﻿//массив размером m×n, заполненный случайными вещественными числами
+using System;
 using static System.Console;
 Clear();
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿//на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента
+using System;
 using static System.Console;
 Clear();
 
