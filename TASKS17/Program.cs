@@ -31,4 +31,4 @@ if (position <= array)
     }
     WriteLine(mass[i, j]);
 }
-else WriteLine("Такрго элемента нет");
+else WriteLine("Такого элемента нет");
