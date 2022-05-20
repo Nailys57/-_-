@@ -1,4 +1,4 @@
-﻿//сптрально заполнить массив
+﻿//спирально заполнить массив
 using System;
 using static System.Console;
 Clear();
