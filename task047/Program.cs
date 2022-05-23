@@ -3,7 +3,7 @@ using System;
 using static System.Console;
 Clear();
 
-int[,] mass = new int[3, 4];
+double[,] mass = new double[3, 4];
 
 {
     for (int i = 0; i < mass.GetLength(0); i++)
@@ -11,9 +11,22 @@ int[,] mass = new int[3, 4];
         for (int j = 0; j < mass.GetLength(1); j++)
         {
             var rand = new Random().Next(-10, 9);
-            var randF = new Random();
-            Write("{0:F1} ", rand + randF.NextDouble());
+            var randF = new Random().NextDouble();
+            mass[i, j] = rand + randF;
+        }     
+    }
+}
+
+void PrintArray(double[,] array)//вывести массив в консоль
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Write("{0:F1} ", array[i, j]);
         }
         WriteLine();
     }
-}
+};
+
+PrintArray(mass);
